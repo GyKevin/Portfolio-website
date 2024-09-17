@@ -17,18 +17,53 @@ html, body {
 }
 
 #container {
+    position: relative;
     width: calc(100vw - 60px);
     height: calc(100vh - 60px);
-    border: 2px solid #FCA311;
-    border-radius: 50px;
-    box-sizing: border-box;
     background-color: #0d0d0d;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
+    padding: 2px;
+    z-index: 1;
 }
+
+/* Use ::before for animated gradient border */
+#container::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    background: linear-gradient(50deg, #FCA311, #FCA311, #0d0d0d, #FCA311, #FCA311);
+    /* background: linear-gradient(50deg, #FCA311 95%, #0d0d0d 20%, #FCA311 80%, #0d0d0d 5%); */
+    background-size: 200% 200%;
+    z-index: -1; 
+    animation: gradientAnimation 8s ease infinite;
+    /* animation: gradientAnimation 8s linear infinite; */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 main, header {
     /* border: 2px solid red; */
+    z-index: 1;
     height: 100%;
+    background-color: #0d0d0d;
 }
 header {
     width: 15vw;
@@ -40,6 +75,8 @@ header {
     /* border radiant */
     border-image: linear-gradient(to bottom, #0d0d0d 5%, #FCA311 20%, #FCA311 80%, #0d0d0d 95%);
     border-image-slice: 1;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 nav {
     height: 50%;
@@ -58,5 +95,7 @@ header a:hover {
 }
 main {
     width: 85vw;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
