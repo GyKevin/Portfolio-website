@@ -28,8 +28,7 @@ html, body {
     padding: 2px;
     z-index: 1;
 }
-
-/* Use ::before for animated gradient border */
+/* this gives a gradient that makes the border look shiny */
 #container::before {
     content: '';
     position: absolute;
@@ -39,14 +38,13 @@ html, body {
     bottom: -4px;
     border-radius: 50px;
     border: 2px solid transparent;
-    background: linear-gradient(50deg, #FCA311, #FCA311, #0d0d0d, #FCA311, #FCA311);
-    /* background: linear-gradient(50deg, #FCA311 95%, #0d0d0d 20%, #FCA311 80%, #0d0d0d 5%); */
+    background: linear-gradient(50deg, #FCA311, #FCA311, #ffcd7d, #FCA311, #FCA311);
     background-size: 200% 200%;
     z-index: -1; 
     animation: gradientAnimation 8s ease infinite;
-    /* animation: gradientAnimation 8s linear infinite; */
 }
 
+/* gradient moving left and right on a loop */
 @keyframes gradientAnimation {
     0% {
         background-position: 0% 50%;
@@ -60,7 +58,6 @@ html, body {
 }
 
 main, header {
-    /* border: 2px solid red; */
     z-index: 1;
     height: 100%;
     background-color: #0d0d0d;
@@ -92,6 +89,8 @@ header a {
 }
 header a:hover {
     color: #a4a3a3;
+    font-weight: 500;
+    font-size: 1.32rem;
 }
 main {
     width: 85vw;
