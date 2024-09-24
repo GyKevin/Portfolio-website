@@ -4,24 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Homepage</title>
 </head>
 <body>
     <div id="container">
         <header>
             <nav>
-                <a href="">Homepage</a>
+                <a class="selected-page" href="">Homepage</a>
                 <a href="">Portfolio</a>
                 <a href="">Over Mij</a>
                 <a href="">Contact</a>
             </nav>
+            <button id="lightModeSwitch">
+                <i class="fa fa-sun-o"></i>
+                <i class="fa fa-moon-o"></i>
+            </button>
         </header>
         <main>
-            <div id="tube"></div>
+            <!-- <div id="tube"></div> -->
+             <div id="txt-container">
+                <h1>Kevin Gyori</h1>
+                <p id="small-txt">Software developer</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt sed vero quo veniam! Harum odit sapiente possimus aut suscipit modi repellat a. Placeat voluptatibus dignissimos hic suscipit totam error.</p>
+             </div>
         </main>
     </div>
     <footer>
-        <button id="lightModeSwitch">Toggle Dark Mode</button>
+        
     </footer>
 </body>
 </html>
