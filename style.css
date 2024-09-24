@@ -17,6 +17,26 @@
     --color-txt: #f2f2f2;
     --color-txt-hover: #a4a3a3;
 }
+/* Initially show the light icon and hide the dark icon */
+.icon-dark {
+    display: none;
+}
+
+/* When data-theme is dark, hide the light icon and show the dark icon */
+[data-theme="dark"] .icon-light {
+    display: none;
+}
+
+[data-theme="dark"] .icon-dark {
+    display: inline;
+}
+[data-theme="light"] .icon-light {
+    display: inline;
+}
+
+[data-theme="light"] .icon-dark {
+    display: none;
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -135,9 +155,6 @@ main {
     cursor: pointer;
     font-size: 1.8rem;
 }
-/* .hidden {
-    display: none;
-} */
 footer {
     position: absolute;
     top: 96vh;
