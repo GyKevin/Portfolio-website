@@ -47,7 +47,7 @@ html, body {
     bottom: -4px;
     border-radius: 50px;
     border: 2px solid transparent;
-    background: linear-gradient(50deg, #FCA311, #FCA311, #ffcd7d, #FCA311, #FCA311);
+    background: linear-gradient(50deg, #FCA311, #FCA311, #fad8a6, #FCA311, #FCA311);
     background-size: 200% 200%;
     z-index: -1; 
     animation: gradientAnimation 8s ease infinite;
