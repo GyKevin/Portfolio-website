@@ -115,3 +115,22 @@ footer {
     background-color: white !important;
     color: #0d0d0d !important;
 }
+#tube {
+    width: 150px;
+    height: 500px;
+    background-color: #151515;
+    animation: test 8s linear infinite;
+    border-radius: 100px;
+    position: relative;
+    float: right !important;
+    top: 65vh;
+    margin-right: 10vw;
+    transform: rotate(150deg);
+    z-index: 1;
+}
+
+@keyframes test {
+0% {top: 65vh; margin-right: 10vw;}
+50% {top: 55vh; margin-right: 15vw;}
+100% {top: 65vh; margin-right: 10vw;}
+}
