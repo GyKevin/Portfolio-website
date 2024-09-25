@@ -1,0 +1,28 @@
+#txt-container {
+    width: 50%;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    background: linear-gradient(90deg, #fca311 0%, #ffe7c1 35%, #fca311 65%, #ffe7c1 90%, #fca311 100%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    animation: gradient 3s linear infinite;
+}
+@keyframes gradient {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
+}
+#small-txt {
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
