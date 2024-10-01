@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/style/style.css">
+    <link rel="stylesheet" href="./public/style/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- dark/light mode switch -->
+     <script src="./public/lightmode.js"></script>
+    <title>Homepage</title>
+</head>
+<body>
+    <div id="container">
+        <div id="mouse-tracker"></div>
+        <header>
+            <nav>
+                <a class="selected-page" href="/">Homepage</a>
+                <a href="/portfolio">Portfolio</a>
+                <a href="/about">Over Mij</a>
+                <a href="/contact">Contact</a>
+            </nav>
+            <button id="lightModeSwitch">
+                <i class="fa fa-sun-o icon-light"></i>
+                <i class="fa fa-moon-o icon-dark"></i>
+            </button>
+        </header>
+        <main>
