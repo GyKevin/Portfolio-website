@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- dark/light mode switch -->
-     <script src="./public/lightmode.js"></script>
     <title>Homepage</title>
 </head>
 <body>
