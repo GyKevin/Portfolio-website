@@ -15,8 +15,8 @@
         <div id="mouse-tracker"></div>
         <header>
             <nav>
-                <a class="selected-page" href="/">Homepage</a>
-                <a href="/portfolio">Portfolio</a>
+                <a class="selected-page" href="/Portfolio-website">Homepage</a>
+                <a href="/Portfolio-website/portfolio">Portfolio</a>
                 <a href="/about">Over Mij</a>
                 <a href="/contact">Contact</a>
             </nav>
