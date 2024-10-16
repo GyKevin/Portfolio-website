@@ -51,7 +51,7 @@ html, body {
     width: calc(100vw - 60px);
     height: calc(100vh - 60px);
     background-color: var(--color-bg);
-    border-radius: 50px;
+    border-radius: 30px;
     display: flex;
     flex-direction: row;
     overflow: hidden;
@@ -66,7 +66,7 @@ html, body {
     left: -4px;
     right: -4px;
     bottom: -4px;
-    border-radius: 50px;
+    border-radius: 30px;
     border: 2px solid transparent;
     background: linear-gradient(50deg, #FCA311, #FCA311, #fad8a6, #FCA311, #FCA311);
     background-size: 200% 200%;
@@ -102,8 +102,8 @@ header {
     /* border radiant */
     border-image: linear-gradient(to bottom, var(--color-bg) 5%, #FCA311 20%, #FCA311 80%, var(--color-bg) 95%);
     border-image-slice: 1;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 nav {
     height: 50%;
@@ -127,8 +127,8 @@ header a:hover {
 }
 main {
     width: 85vw;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;

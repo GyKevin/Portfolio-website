@@ -11,11 +11,15 @@
     <title>Homepage</title>
 </head>
 <body>
+<?php 
+
+?>
+
     <div id="container">
         <div id="mouse-tracker"></div>
         <header>
             <nav>
-                <a class="selected-page" href="/Portfolio-website">Homepage</a>
+                <a class="selected-page" href="/Portfolio-website/">Homepage</a>
                 <a href="/Portfolio-website/portfolio">Portfolio</a>
                 <a href="/about">Over Mij</a>
                 <a href="/contact">Contact</a>
