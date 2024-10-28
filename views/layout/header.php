@@ -3,22 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/style/style.css">
-    <link rel="stylesheet" href="./public/style/homepage.css">
+    <link rel="stylesheet" href="../public/style/style.css">
+    <link rel="stylesheet" href="../public/style/homepage.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- dark/light mode switch -->
     <title>Homepage</title>
 </head>
 <body>
-<?php 
-
-?>
-
     <div id="container">
         <div id="mouse-tracker"></div>
         <header>
-            <nav>
+            <!-- <nav>
                 <a class="selected-page" href="/Portfolio-website/">Homepage</a>
                 <a href="/Portfolio-website/portfolio">Portfolio</a>
                 <a href="/about">Over Mij</a>
@@ -29,4 +25,4 @@
                 <i class="fa fa-moon-o icon-dark"></i>
             </button>
         </header>
-        <main>
+        <main> -->

@@ -1,4 +1,16 @@
 <?php require './views/layout/header.php' ?>
+<nav>
+                <a class="selected-page" href="/Portfolio-website/">Homepage</a>
+                <a href="/Portfolio-website/portfolio">Portfolio</a>
+                <a href="/about">Over Mij</a>
+                <a href="/contact">Contact</a>
+            </nav>
+            <button id="lightModeSwitch">
+                <i class="fa fa-sun-o icon-light"></i>
+                <i class="fa fa-moon-o icon-dark"></i>
+            </button>
+        </header>
+        <main>
 <div id="txt-container">
     <h1>Kevin Gyori</h1>
     <p id="small-txt">Software developer</p>

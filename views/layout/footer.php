@@ -5,4 +5,4 @@
     </footer>
 </body>
 </html>
-<script src="./public/lightmode.js"></script>
+<script src="../public/lightmode.js"></script>
