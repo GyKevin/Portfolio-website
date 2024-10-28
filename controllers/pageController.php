@@ -9,4 +9,7 @@ class PageController {
     public function about() {
         require './views/about/about.view.php';
     }
+    public function contact() {
+        require './views/contact/contact.view.php';
+    }
 }

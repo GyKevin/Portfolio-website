@@ -19,6 +19,9 @@ switch ($request) {
     case '/about':
         $controller->about();
         break;
+    case '/contact':
+        $controller->contact();
+        break;
     default:
         echo '404 Not Found';
 }
