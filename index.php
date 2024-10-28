@@ -16,6 +16,9 @@ switch ($request) {
     case '/portfolio':
         $controller->portfolio();
         break;
+    case '/about':
+        $controller->about();
+        break;
     default:
         echo '404 Not Found';
 }

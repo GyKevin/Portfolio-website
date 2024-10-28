@@ -1,9 +1,10 @@
+<link rel="stylesheet" href="../public/style/homepage.css">
 <?php require './views/layout/header.php' ?>
 <nav>
                 <a class="selected-page" href="/Portfolio-website/">Homepage</a>
                 <a href="/Portfolio-website/portfolio">Portfolio</a>
-                <a href="/about">Over Mij</a>
-                <a href="/contact">Contact</a>
+                <a href="/Portfolio-website/about">Over Mij</a>
+                <a href="/Portfolio-website/contact">Contact</a>
             </nav>
             <button id="lightModeSwitch">
                 <i class="fa fa-sun-o icon-light"></i>

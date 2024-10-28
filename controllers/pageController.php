@@ -6,4 +6,7 @@ class PageController {
     public function portfolio() {
         require './views/portfolio/portfolio.view.php';
     }
+    public function about() {
+        require './views/about/about.view.php';
+    }
 }

@@ -3,8 +3,8 @@
 <nav>
         <a href="/Portfolio-website/">Homepage</a>
         <a class="selected-page" href="/Portfolio-website/portfolio">Portfolio</a>
-        <a href="/about">Over Mij</a>
-        <a href="/contact">Contact</a>
+        <a href="/Portfolio-website/about">Over Mij</a>
+        <a href="/Portfolio-website/contact">Contact</a>
     </nav>
     <button id="lightModeSwitch">
         <i class="fa fa-sun-o icon-light"></i>
@@ -13,14 +13,14 @@
 </header>
 <main>
     <div id="Project-page-cont">
-    <h1>My projects</h1>
+    <h1 class="shiny-text">My projects</h1>
     <div class="project-cont">
         <div class="projects">
             <div class="project-img-cont">
                 <img src="../public/img/snake-game.png" alt="">
             </div>
             <div class="project-txt-cont">
-                <h2 class="project-head-txt">Snake game</h2>
+                <h2 class="shiny-text">Snake game</h2>
                 <p class="project-paragraph-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta itaque doloribus dolore magni suscipit? Ad laboriosam animi optio ea nihil sit ullam harum atque quis ab vero quod, nobis sunt?</p>
                 <a href="">Read more >></a>
             </div>
