@@ -12,14 +12,7 @@
     <div id="container">
         <div id="mouse-tracker"></div>
         <header>
-        <button class="hamburger-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
-        <script>
-            var dropdown = document.getElementsByClassName("hamburger-menu");
-            dropdown.addEventListener("click", () => {
-                document.querySelectorAll("nav").style.display = "flex";
-            });
-            
-        </script>
+        <button id="hamburger-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
             <!-- <nav>
                 <a class="selected-page" href="/Portfolio-website/">Homepage</a>
                 <a href="/Portfolio-website/portfolio">Portfolio</a>

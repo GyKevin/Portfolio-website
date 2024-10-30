@@ -163,12 +163,12 @@ footer p {
     top: 0;
     z-index: 100000;
 }
-.hamburger-menu {
+#hamburger-menu {
     display: none;
     background: none;
     border: none;
 }
-.hamburger-menu:hover {
+#hamburger-menu:hover {
     cursor: pointer;
 }
 @media(max-width: 910px) {
@@ -226,11 +226,13 @@ footer p {
     main {
         z-index: 0;
     }
-    .hamburger-menu {
+    #hamburger-menu {
         display: block;
         margin-left: 5%;
         width: 50px;
         height: 50px;
     }
-    
+    #lightModeSwitch {
+        padding: 10px;
+    }
 }

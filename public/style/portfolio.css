@@ -85,3 +85,16 @@
         background-position: -200% center;
     }
 } 
+
+@media (max-width: 580px) {
+    .project-cont {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .projects {
+        width: 60%;
+    }
+}

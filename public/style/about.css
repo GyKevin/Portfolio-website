@@ -60,3 +60,17 @@
         background-position: -200% center;
     }
 }
+
+@media (max-width: 580px) {
+    #bio-cont {
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    .bio-txt-cont {
+        width: 100%;
+    }
+    .bio-pic-cont {
+        width: 100%;
+    }
+}
