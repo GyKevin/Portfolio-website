@@ -15,19 +15,19 @@
     <div id="Project-page-cont">
     <h1 class="shiny-text">My projects</h1>
     <div class="project-cont">
+        <?php foreach($items as $item): ?>
         <div class="projects">
             <div class="project-img-cont">
-                <img src="../public/img/snake-game.png" alt="">
+                <!-- <img src="../public/img/snake-game.png" alt=""> -->
+                <img src="<?php echo $item['Image'] ?>" alt="">
             </div>
             <div class="project-txt-cont">
-                <h2 class="shiny-text">Snake game</h2>
-                <p class="project-paragraph-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta itaque doloribus dolore magni suscipit? Ad laboriosam animi optio ea nihil sit ullam harum atque quis ab vero quod, nobis sunt?</p>
+                <h2 class="shiny-text"><?php echo $item['Title'] ?></h2>
+                <p class="project-paragraph-txt"><?php echo $item['Txt'] ?></p>
                 <a href="">Read more >></a>
             </div>
         </div>
-        <div class="projects">2</div>
-        <div class="projects">3</div>
-        <div class="projects">4</div>
+        <?php endforeach; ?>
     </div>
     </div>
 
