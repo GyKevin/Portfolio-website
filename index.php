@@ -3,9 +3,12 @@ require_once './controllers/PageController.php';
 
 $request = $_SERVER['REQUEST_URI'];
 
-$baseFolder = '/Portfolio-website';
-$request = str_replace($baseFolder, '', $request);
+// Remove query string if it exists
+if (strpos($request, '?') !== false) {
+    $request = substr($request, 0, strpos($request, '?'));
+}
 
+// Create an instance of the controller
 $controller = new PageController();
 
 // Routing logic
@@ -24,4 +27,6 @@ switch ($request) {
         break;
     default:
         echo '404 Not Found';
+        break;
 }
+?>

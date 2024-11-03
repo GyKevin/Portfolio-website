@@ -2,10 +2,10 @@
 <?php require './views/layout/header.php' ?>
 <!-- Dit gedeelte komt op elke pagina voor zodat ik de class op de pages kan wisselen -->
 <nav>
-        <a href="/Portfolio-website/">Homepage</a>
-        <a href="/Portfolio-website/portfolio">Portfolio</a>
-        <a href="/Portfolio-website/about">Over Mij</a>
-        <a class="selected-page" href="/Portfolio-website/contact">Contact</a>
+        <a href="/">Homepage</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/about">Over Mij</a>
+        <a class="selected-page" href="/contact">Contact</a>
     </nav>
     <button id="lightModeSwitch">
         <i class="fa fa-sun-o icon-light"></i>
