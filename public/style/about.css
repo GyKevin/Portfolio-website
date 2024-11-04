@@ -14,7 +14,7 @@
 }
 .bio-txt-cont p {
     margin-left: 5%;
-    animation: slideIn 0.3s ease-in;
+    /* animation: slideIn 0.3s ease-in; */
 }
 
 .bio-pic-cont {
@@ -27,10 +27,10 @@
     width: 55%;
     border-radius: 30px;
     box-shadow: 5px 5px 0px -1px rgba(74, 74, 74, 0.36);
-    animation: slideIn 0.5s ease-in;
+    /* animation: slideIn 0.5s ease-in; */
 }
 
-@keyframes slideIn {
+/* @keyframes slideIn {
     0% {
         margin-bottom: 1000px;
         opacity: 0;
@@ -39,7 +39,7 @@
         margin-bottom: 0;
         opacity: 1;
     }
-}
+} */
 
 .shiny-text {
     margin: 0;
