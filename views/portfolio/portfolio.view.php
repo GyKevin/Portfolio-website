@@ -3,7 +3,7 @@
 <nav>
         <a href="/">Homepage</a>
         <a class="selected-page" href="/portfolio">Portfolio</a>
-        <a href="/about">Over Mij</a>
+        <a href="/about">About Me</a>
         <a href="/contact">Contact</a>
     </nav>
     <button id="lightModeSwitch">
@@ -24,7 +24,7 @@
             <div class="project-txt-cont">
                 <h2 class="shiny-text"><?php echo $item['Title'] ?></h2>
                 <p class="project-paragraph-txt"><?php echo $item['Txt'] ?></p>
-                <a href="">Read more >></a>
+                <a href="/project?github=<?php echo $item['Github']; ?>">Read more >></a>
             </div>
         </div>
         <?php endforeach; ?>

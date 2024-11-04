@@ -25,8 +25,10 @@ switch ($request) {
     case '/contact':
         $controller->contact();
         break;
+    case '/project':
+        $controller->project();
+        break;
     default:
         echo '404 Not Found';
         break;
 }
-?>

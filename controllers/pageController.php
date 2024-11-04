@@ -1,5 +1,6 @@
 <?php
-require_once './models/PortfolioModel.php';
+require_once './models/portfolioModel.php';
+require_once './models/projectModel.php';
 
 class PageController {
     public function home() {
@@ -15,5 +16,11 @@ class PageController {
     }
     public function contact() {
         require './views/contact/contact.view.php';
+    }
+    public function project() {
+        $github = $_GET['github'];
+        $projectModel = new ProjectModel();
+        $project = $projectModel->getProjects($github);
+        require './views/project/project.view.php';
     }
 }

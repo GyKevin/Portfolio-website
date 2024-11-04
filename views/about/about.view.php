@@ -4,7 +4,7 @@
 <nav>
         <a href="/">Homepage</a>
         <a href="/portfolio">Portfolio</a>
-        <a class="selected-page" href="/about">Over Mij</a>
+        <a class="selected-page" href="/about">About Me</a>
         <a href="/contact">Contact</a>
     </nav>
     <button id="lightModeSwitch">

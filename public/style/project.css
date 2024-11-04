@@ -1,0 +1,33 @@
+#project-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+#project-img {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+}
+#project-img img {
+    object-fit: cover;
+    height: auto;
+    width: 60%;
+}
+#project-txt {
+    width: 80%;
+}
+
+.shiny-text {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    background: linear-gradient(90deg, #fca311 0%, #ffe7c1 35%, #fca311 65%, #ffe7c1 90%, #fca311 100%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    animation: gradient 3s linear infinite;
+}

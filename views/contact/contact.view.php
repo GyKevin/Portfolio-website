@@ -4,7 +4,7 @@
 <nav>
         <a href="/">Homepage</a>
         <a href="/portfolio">Portfolio</a>
-        <a href="/about">Over Mij</a>
+        <a href="/about">About Me</a>
         <a class="selected-page" href="/contact">Contact</a>
     </nav>
     <button id="lightModeSwitch">
@@ -16,7 +16,7 @@
 <!-- begin pagina origineel code -->
  <div id="contact-page-cont">
     <div id="contact-form-cont">
-        <h1 class="shiny-text">Neem contact op!</h1>
+        <h1 class="shiny-text">Email Me</h1>
         <div class="txt-field-cont">
             <input class="email-field" type="text" placeholder="Email" name="" id="">
             <textarea class="txt-field" type="textarea" placeholder="Bericht" name="" id=""> </textarea>

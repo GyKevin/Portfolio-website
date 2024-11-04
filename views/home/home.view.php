@@ -3,7 +3,7 @@
 <nav>
                 <a class="selected-page" href="/">Homepage</a>
                 <a href="/portfolio">Portfolio</a>
-                <a href="/about">Over Mij</a>
+                <a href="/about">About Me</a>
                 <a href="/contact">Contact</a>
             </nav>
             <button id="lightModeSwitch">
