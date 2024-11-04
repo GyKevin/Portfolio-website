@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="../public/style/project.css">
 <?php require './views/layout/header.php' ?>
+<!-- new code -->
 <nav>
         <a href="/">Homepage</a>
         <a href="/portfolio">Portfolio</a>
@@ -22,4 +23,5 @@
             <a href="<?php echo $project['Github']; ?>">Github</a>
         </div>
     </div>
+    <!-- footer -->
 <?php require './views/layout/footer.php' ?>

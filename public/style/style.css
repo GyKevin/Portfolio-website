@@ -6,6 +6,7 @@
     font-style: normal;
     color: var(--color-txt);
 }
+/* when the theme is switched between light and dark mode, switch the colors */
 [data-theme="light"] {
     --color-bg: #f2f2f2;
     --color-txt: #0d0d0d;
@@ -162,6 +163,7 @@ footer p {
 #hamburger-menu:hover {
     cursor: pointer;
 }
+/* navbar responsiveness under 910px */
 @media(max-width: 910px) {
     #container {
         display: flex;
@@ -198,6 +200,7 @@ footer p {
     }
 }
 
+/* navbar responsiveness under 580px */
 @media (max-width: 580px) {
     header {
         border: none;

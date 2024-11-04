@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="../public/style/homepage.css">
 <?php require './views/layout/header.php' ?>
+<!-- new code -->
 <nav>
                 <a class="selected-page" href="/">Homepage</a>
                 <a href="/portfolio">Portfolio</a>
@@ -18,4 +19,5 @@
     <p>Hi! I'm Kevin. I am a software developer student that studies Windesheim. <br>
         I specialize in fullstack web development, mainly using HTML, CSS, Javascript and PHP.</p>
 </div>
+<!-- footer -->
 <?php require './views/layout/footer.php' ?>

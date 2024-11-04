@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="../public/style/portfolio.css">
 <?php require './views/layout/header.php' ?>
+<!-- new code -->
 <nav>
         <a href="/">Homepage</a>
         <a class="selected-page" href="/portfolio">Portfolio</a>
@@ -15,6 +16,7 @@
     <div id="Project-page-cont">
     <h1 class="shiny-text">My projects</h1>
     <div class="project-cont">
+        <!-- for each item that is in the table, make a prject box -->
         <?php foreach($items as $item): ?>
         <div class="projects">
             <div class="project-img-cont">

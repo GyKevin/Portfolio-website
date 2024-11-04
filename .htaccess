@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteBase /
 
 # Redirect everything to index.php
-# Ik heb dit code van chatGPT genomen https://chatgpt.com/c/67277add-b33c-8003-b668-dc859c5d4e2d
+# Ik heb dit code van chatGPT gepakt https://chatgpt.com/c/67277add-b33c-8003-b668-dc859c5d4e2d
 #
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

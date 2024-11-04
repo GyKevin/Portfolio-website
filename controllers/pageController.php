@@ -15,7 +15,7 @@ class PageController {
         require './views/about/about.view.php';
     }
     public function contact() {
-        //i cannot seem to get the contact form to work. here is the source i used for it https://www.inmotionhosting.com/support/website/using-the-php-mail-function-to-send-emails/
+        //if post is set, send email
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
             $subject = $_POST['subject'];
@@ -23,11 +23,13 @@ class PageController {
             $to = "kevingyori@outlook.com";
             $headers = "From: $email";
 
-            if(!$email || empty($subject) || empty($message)) {
+            // if one of the fields are empty, echo message
+            if(empty($email) || empty($subject) || empty($message)) {
                 echo "Please fill in all the fields.";
                 return;
             }
 
+            // mail the contact form
             $sent = mail($to, $subject, $message, $headers);
 
             if($sent) {
@@ -42,6 +44,7 @@ class PageController {
         }
     }
     public function project() {
+        // get the data from the github column
         $github = $_GET['github'];
         $projectModel = new ProjectModel();
         $project = $projectModel->getProjects($github);
