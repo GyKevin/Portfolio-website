@@ -21,6 +21,14 @@
     align-items: center;
     flex-direction: column;
 }
+#contact-form{
+    /* width: 60%; */
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .txt-field-cont {
     width: 80%;
@@ -35,6 +43,13 @@
 }
 
 .email-field {
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-contact-field-bg);
+    border: 1px solid var(--color-border-textfield);
+    border-radius: 5px;
+}
+.subject-field {
     width: 100%;
     height: 30px;
     background-color: var(--color-contact-field-bg);

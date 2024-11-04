@@ -17,15 +17,18 @@
  <div id="contact-page-cont">
     <div id="contact-form-cont">
         <h1 class="shiny-text">Email Me</h1>
-        <div class="txt-field-cont">
-            <input class="email-field" type="text" placeholder="Email" name="" id="">
-            <textarea class="txt-field" type="textarea" placeholder="Bericht" name="" id=""> </textarea>
-        </div>
-        <div class="buttons-cont">
-            <input class="submit-button" type="submit" value="Verzenden">
-            <a class="social-links" href="mailto:kevingyori@outlook.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a class="social-links" href="https://nl.linkedin.com/in/kevin-gy%C5%91ri-54685122b?"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </div>
+        <form id="contact-form" action="/contact" method="POST">
+            <div class="txt-field-cont">
+                <input class="email-field" type="text" placeholder="Email" name="" id="email">
+                <input class="subject-field" type="text" placeholder="Subject" name="" id="subject">
+                <textarea class="txt-field" type="textarea" placeholder="Message" name="" id="message"></textarea>
+            </div>
+            <div class="buttons-cont">
+                <input class="submit-button" type="submit" value="Send">
+                <a class="social-links" href="mailto:kevingyori@outlook.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a class="social-links" href="https://nl.linkedin.com/in/kevin-gy%C5%91ri-54685122b?"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+        </form>
     </div>
  </div>
 <?php require './views/layout/footer.php' ?>

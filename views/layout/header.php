@@ -10,7 +10,6 @@
 </head>
 <body>
     <div id="container">
-        <div id="mouse-tracker"></div>
         <header>
         <button id="hamburger-menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
             <!-- <nav>
