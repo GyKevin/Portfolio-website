@@ -4,17 +4,23 @@
     justify-content: center;
     align-items: center;
     overflow: auto;
+    height: 100%;
 }
 #project-img {
     width: 80%;
-    height: 30%;
+    height: 50vh;
     display: flex;
     justify-content: center;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 5px 5px 0px -1px rgba(74, 74, 74, 0.36);
+    margin-top: 30px;
 }
 #project-img img {
     object-fit: cover;
-    height: auto;
-    width: 60%;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
 }
 #project-txt {
     width: 80%;
@@ -30,4 +36,13 @@
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
     animation: gradient 3s linear infinite;
+}
+
+@keyframes gradient {
+    from {
+        background-position: 0% center;
+    }
+    to {
+        background-position: -200% center;
+    }
 }

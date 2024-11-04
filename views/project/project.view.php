@@ -19,7 +19,7 @@
         </div>
         <div id="project-txt">
             <p><?php echo $project['Txt']; ?></p>
-            <p><?php echo $project['Github']; ?></p>
+            <a href="<?php echo $project['Github']; ?>">Github</a>
         </div>
     </div>
 <?php require './views/layout/footer.php' ?>

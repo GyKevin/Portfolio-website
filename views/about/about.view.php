@@ -17,7 +17,15 @@
 <div id="bio-cont">
     <div class="bio-txt-cont">
         <h1 class="shiny-text">About me</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam assumenda incidunt quae id, dignissimos perferendis eum earum ipsam. Nisi recusandae doloribus tenetur iusto! Minus cum laudantium atque repellat labore!</p>
+        <p>Hi! I'm Kevin. I'm a software developer student that studies at Windesheim. 
+            I started programming in 2020 after i started doing software development at ROC van Flevoland.
+            In the years of my programming journey i have participated in many projects, mainly focusing on the backend using PHP,
+            however i have developed a liking towards frontend developing during my internship at Jaspers Media, where i've been mostly
+            developing their website using NUXT.js and TailwindCSS. <br> <br> Eversince my internship i like to experiment with making minimalistic,
+            easy on the eyes websites that function well and still somehow catch your attention.
+            Ofcourse, frontend development isn't the only thing i'm busy with as i still do a lot of backend work for my school projects and 
+            i enjoy making projects in PHP to this day.</p>
+            <a href="../public/Kevin_Gyori_CV.pdf" download>Download my CV</a>
     </div>
     <div class="bio-pic-cont">
         <img src="../public/img/me.jpeg" alt="">

@@ -15,6 +15,7 @@
 <div id="txt-container">
     <h1>Kevin Gyori</h1>
     <p id="small-txt">Software developer</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nesciunt sed vero quo veniam! Harum odit sapiente possimus aut suscipit modi repellat a. Placeat voluptatibus dignissimos hic suscipit totam error.</p>
+    <p>Hi! I'm Kevin. I am a software developer student that studies Windesheim. <br>
+        I specialize in fullstack web development, mainly using HTML, CSS, Javascript and PHP.</p>
 </div>
 <?php require './views/layout/footer.php' ?>
