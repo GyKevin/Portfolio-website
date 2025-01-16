@@ -4,6 +4,7 @@ class DbConnect {
     private $db_name = "portfolio";
     private $username = "root";
     private $password = "";
+    private $pdo;
 
     // connect to database with pdo
     public function connect() {
